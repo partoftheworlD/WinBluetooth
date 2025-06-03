@@ -1,0 +1,7 @@
+[package]
+name = "bt_battery"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+windows = { version = "0.61.1", features = ["Win32_Devices", "Win32_Devices_Bluetooth", "Win32_Networking_WinSock"] }
